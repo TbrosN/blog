@@ -140,12 +140,9 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
 
-# # os.environ.get('AWS_ACCESS_KEY_ID')
-# AWS_ACCESS_KEY_ID = 'AKIA5J62LFNUELNTOULO'
-# # os.environ.get('AWS_SECRET_ACCESS_KEY')
-# AWS_SECRET_ACCESS_KEY = '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'
-# # os.environ.get('AWS_STORAGE_BUCKET_NAME')
-# AWS_STORAGE_BUCKET_NAME = 'django-test-blog-files'
+# AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+# AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+# AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAME')
 #
 # AWS_S3_FILE_OVERWRITE = False
 # AWS_DEFAULT_ACL = None
